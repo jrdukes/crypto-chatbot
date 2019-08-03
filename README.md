@@ -1,5 +1,5 @@
 # crypto-chatbot
 
-This chatbot shows current price of the highly volatile Bitcoin ( ₿ / XBT).
+This chatbot displays current price of the highly volatile Bitcoin ( ₿ / XBT).
 
-More functionality to come.
+Using Telegram https://telegram.org/ for chatbot functionality. More functionality to come.
