@@ -1,0 +1,17 @@
+{
+  "name": "chat-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "telegraf": "^3.32.0"
+  }
+}
