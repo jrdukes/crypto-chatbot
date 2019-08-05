@@ -15,12 +15,14 @@ const url = 'https://api.coindesk.com/v1/bpi/currentprice.json';
 const fn = ctx => {
   fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
     .then(res => res.json())
-    .then(res =>
-      ctx.reply(
-        `Bitcoin's Current Price: $${res.bpi.USD.rate_float
-          .toFixed(2)
-          .toLocaleString()}`
-      )
+    .then(
+      res =>
+        ctx.reply(
+          `Bitcoin's Current Price: $${res.bpi.USD.rate_float
+            .toFixed(2)
+            .toLocaleString()}`
+        )
+      // controlToCheck.value = Number(enteredNumber).toLocaleString('en-US', { style: 'currency', currency: 'USD' });
     );
 };
 
